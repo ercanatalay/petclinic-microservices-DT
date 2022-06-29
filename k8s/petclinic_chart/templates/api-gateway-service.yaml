@@ -14,7 +14,10 @@ metadata:
 spec:
   ports:
     - name: "8080"
+<<<<<<< HEAD
       nodePort: 30001
+=======
+>>>>>>> feature/msp-18
       port: 8080
       targetPort: 8080
   selector:

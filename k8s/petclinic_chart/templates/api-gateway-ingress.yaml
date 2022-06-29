@@ -15,6 +15,11 @@ spec:
   ingressClassName: nginx
   rules:
     - host: '{{ .Values.DNS_NAME }}'
+<<<<<<< HEAD
+=======
+  rules:
+    - host: '{{ .values.dns_name }}'
+>>>>>>> feature/msp-18
       http:
         paths:
           - backend:
